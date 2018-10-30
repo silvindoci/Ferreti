@@ -14,6 +14,8 @@ $(".first ").click(function() {
         'slow');
 });
 
-$(".tablink ").click(function() {
-    $(".sidenav ").toggleClass("active ");
+
+$('.close_tab').click(function(event) {
+    $(this).parents('.tab-pane').removeClass('active');
+    $(".nav-tabs .active").removeClass('active');
 });
