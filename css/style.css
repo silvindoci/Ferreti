@@ -390,10 +390,22 @@ nav {
 .social-icon-footer li {
     display: inline;
     margin: 10px;
-    border: 2px solid #e6e6e6;
     padding: 1px 2px 4px 7px;
     width: 24px;
     height: 25px;
+}
+
+.social-icon-footer li a {
+    color: #B4B4B4;
+    width: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #B4B4B4;
+}
+
+.apple img {
+    margin-top: -3px
 }
 
 .link-footer li {
@@ -793,6 +805,12 @@ responsive
     }
     .about .features_list {
         margin-top: -70px;
+    }
+    .social-icon-footer {
+        display: none;
+    }
+    .link-footer {
+        margin-left: -30px;
     }
 }
 
