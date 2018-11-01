@@ -462,11 +462,9 @@ nav {
     height: 74px;
     justify-content: center;
     position: relative;
-    padding: 0;
-    border: 0;
     background-color: rgba(255, 255, 255, 0.9);
     margin-top: 450px;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .nav-tabs>li>a {
@@ -478,8 +476,19 @@ nav {
     border: none;
 }
 
+.nav-tabs .nav-link {
+    border: none;
+}
+
 .nav-tabs .nav-link.active {
     background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link img {
+    vertical-align: baseline;
 }
 
 
